@@ -1,0 +1,30 @@
+#textarea{
+display: flex;
+flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-bottom: 50px;
+}
+
+#description{
+    margin: 10px;
+    resize: none;
+    border: hidden;
+}
+
+textarea:focus{
+    outline: 0;
+}
+
+#header, #footer{
+    padding: 25px;
+    font-size: 24px;
+}
+
+#header {
+    box-shadow: 0 4px 5px 1px #d5e584;
+}
+
+#footer{
+    border-top: 1px solid lightgray;
+}
